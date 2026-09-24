@@ -19,21 +19,47 @@ backend, no sube fotografías y no envía datos automáticamente a terceros.
 
 ## Capturas de pantalla
 
-Las siguientes imágenes muestran el flujo principal de la aplicación. El
-comprobante visible en la captura del formulario es únicamente un recurso
-gráfico de demostración; no contiene datos reales.
+Flujo completo en tres pasos, capturado en la app real (escritorio 1280×800
+y móvil 390×844):
 
-### Inicio en escritorio
+### 1. Sube tu comprobante (escritorio)
 
-![Pantalla inicial del convertidor en escritorio](docs/screenshots/inicio-escritorio.png)
+![Paso 1 en escritorio: subir el comprobante de pago](docs/screenshots/inicio-escritorio.png)
 
-### Inicio en móvil
+### 2. Anota tus datos (escritorio)
 
-![Pantalla inicial del convertidor en un teléfono](docs/screenshots/inicio-movil.png)
+![Paso 2 en escritorio: formulario con datos y comprobante cargado](docs/screenshots/captura-datos-escritorio.png)
 
-### Captura de datos
+### 3. Descarga y envía (escritorio)
 
-![Formulario de datos y materias con el comprobante cargado](docs/screenshots/captura-datos-escritorio.png)
+![Paso 3 en escritorio: solicitud creada, botones de WhatsApp y descarga](docs/screenshots/descarga-escritorio.png)
+
+### 1. Sube tu comprobante (móvil)
+
+![Paso 1 en un teléfono: subir el comprobante de pago](docs/screenshots/inicio-movil.png)
+
+> **Datos ficticios:** todas las capturas usan datos sintéticos de
+> demostración (`ALUMNA DEMO`, matrícula `263000000001`, etapa `2609B`) y el
+> comprobante visible es `docs/demo-voucher.png`, una imagen generada solo
+> para la documentación, marcada como **COMPROBANTE DEMO — SIN VALOR**. No
+> contiene datos de ninguna persona real.
+
+## Uso (3 pasos)
+
+1. **Sube tu comprobante:** foto (JPG, PNG, WEBP) o PDF de tu pago, máximo
+   12 MB. Sin comprobante no se puede continuar. Si tu foto es HEIC de
+   iPhone, cambia a «Más compatible» en Ajustes > Cámara y vuelve a tomarla.
+2. **Anota tus datos:** nombre completo, matrícula (8 a 16 dígitos), etapa
+   (ej. `2609B`) y materias (escribe el número o el nombre y elige de la
+   lista). La oficina ya viene con `3006`.
+3. **Descarga y envía:** la app genera el PDF y lo descarga. **Obligatorio:**
+   envíalo por WhatsApp a Oficina 3006 (+52 1 783 208 5248); sin ese envío
+   la solicitud **no es válida**.
+
+Costo de referencia: **$101 por examen** (ej. 2 materias = $202). Pagos en
+banco o banca electrónica solo de **lunes a viernes, 9:00 AM a 5:00 PM**;
+fuera de ese horario el pago no se hace válido. Verifica siempre los
+requisitos vigentes con la oficina antes de pagar.
 
 ## Privacidad
 

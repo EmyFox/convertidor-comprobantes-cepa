@@ -1,6 +1,7 @@
 {
-  "name": "baucher-ultra",
-  "private": true,
+  "name": "convertidor-comprobantes-cepa",
+  "private": false,
+  "description": "PWA offline para convertir comprobantes de pago en solicitudes de examen de CEPA",
   "version": "1.0.0",
   "type": "module",
   "scripts": {

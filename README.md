@@ -17,6 +17,24 @@ backend, no sube fotografías y no envía datos automáticamente a terceros.
 - Interfaz accesible: objetivos táctiles amplios, foco visible y respeto por
   `prefers-reduced-motion`.
 
+## Capturas de pantalla
+
+Las siguientes imágenes muestran el flujo principal de la aplicación. El
+comprobante visible en la captura del formulario es únicamente un recurso
+gráfico de demostración; no contiene datos reales.
+
+### Inicio en escritorio
+
+![Pantalla inicial del convertidor en escritorio](docs/screenshots/inicio-escritorio.png)
+
+### Inicio en móvil
+
+![Pantalla inicial del convertidor en un teléfono](docs/screenshots/inicio-movil.png)
+
+### Captura de datos
+
+![Formulario de datos y materias con el comprobante cargado](docs/screenshots/captura-datos-escritorio.png)
+
 ## Privacidad
 
 Los archivos seleccionados se procesan en el dispositivo y no se envían a un
